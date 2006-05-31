@@ -5,7 +5,7 @@
 
 \description{
 Data on automobile gas mileage performace recorded at each gasoline
-fill-up from Oct. 20, 1996 through January 27, 1999.}
+fill-up from Oct. 20, 1996 through January 27, 1999.
 }
 \usage{data(CarMileageData)}
 \format{

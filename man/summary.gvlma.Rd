@@ -8,7 +8,7 @@
 \title{Print Basic Information for a Gvlma Object}
 \description{
 Prints the basic information for a gvlma object, which is the output
-object from the function \code{\link{gvlma}}.}
+object from the function \code{\link{gvlma}}.
 }
 \usage{
 \method{summary}{gvlma}(object, \dots)
@@ -55,7 +55,7 @@ display.gvlmatests(gvlmaobj)
   \email{pena@stat.sc.edu}. }
 
 
-\seealso{\code{\link{gvlma}}, \code{\link{display.gvlmatests}}, \code{\link{summary}}}
+\seealso{\code{\link{gvlma}}, \code{\link{display.gvlmatests}}, \code{\link{summary.lm}}}
 
 
 \examples{

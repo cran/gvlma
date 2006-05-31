@@ -63,6 +63,6 @@ function(object, allstats = TRUE, ...)
       cat("\n\nUnusual observations for ", nm, ":\n", sep = "")
       print(unusualobsprint)
     }
-  invisible(unusualobs = as.data.frame(unusualobs))
+  invisible(as.data.frame(unusualobs))
 }
 

@@ -1,0 +1,5 @@
+
+Things I'd like to revise:
+1.  passing of alphalevel around
+2.  repetitive computing of outlying observations in display.delstats,
+	summary.gvlmaDel 
