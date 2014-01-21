@@ -22,7 +22,7 @@ heteroscedasticity directional test.
   to gvlma.  These may include arguments to the \code{lm} function, such
 as \code{subset}, as well as the gvlma-specific arguments
 \code{alphalevel} and \code{timeseq}. Internal note: The function
-\code{deletion.gvlma} 
+\code{deletion.gvlma}
 passes the argument \code{warn = FALSE} to suppress warnings about a
 time sequence of incorrect length.}
 }
@@ -40,16 +40,16 @@ statistic decisions will be based on the new level of significance.  If
 \eqn{S^2_4}, will be updated to use the new time sequence.
 }
 \value{
-A new gvlma object is returned.  
+A new gvlma object is returned.
 }
 
 
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
   \email{pena@stat.sc.edu}. }
 
 \seealso{\code{\link{gvlma}},\code{\link{update.default}} }

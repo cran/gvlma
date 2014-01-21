@@ -19,15 +19,15 @@ License: \tab GPL\cr
 }
 The function \code{gvlma} will take either a linear models object or a
 formula and data set for a linear model (single response) and compute
-the global   
+the global
 and directional tests for assessing modeling assumptions as described in
 the reference listed below.  The function \code{deletion.gvlma} will
 compute the deletion (\dQuote{leave-one-out}) global statistics described in
 that paper. }
 \author{
-Slate, EH \email{SlateEH@musc.edu} and Pena, EA \email{pena@stat.sc.edu}
+Slate, EH \email{slate@stat.fsu.edu} and Pena, EA \email{pena@stat.sc.edu}
 
-Maintainer: Slate, EH  <SlateEH@musc.edu>
+Maintainer: Slate, EH  <slate@stat.fsu.edu>
 }
 \references{
 Pena, EA and Slate, EH (2006).  \dQuote{Global validation of

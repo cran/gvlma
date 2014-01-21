@@ -7,7 +7,7 @@
 Summarize the test statistic values and p-values for assessing unusual
 observations using the global and directional test statistics that were
 computed in a \code{gvlmaDel} object resulting from a call to
-\code{deletion.gvlma}. 
+\code{deletion.gvlma}.
 }
 
 \usage{
@@ -35,7 +35,7 @@ quartile and maximum of the deletion test statistic values and
 p-values.  Additionally, observations and the corresponding deletion test
 statistic values and p-values for which the deletion test statistic
 value or its p-value is outside the outer fences (Q1 - 3*IQR, Q3 +
-3*IQR) of the set of 
+3*IQR) of the set of
 deletion statistics are reported.
 
 \code{print.gvlmaDel} simply invokes \code{summary.gvlmaDel} with
@@ -57,9 +57,9 @@ deletion statistics are reported.
 
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
   \email{pena@stat.sc.edu}. }
 
 \seealso{\code{\link{gvlma}}, \code{\link{deletion.gvlma}}}

@@ -6,7 +6,7 @@
 Creates a graph of the p-values associated with the deletion statistics
 versus the deletion statistics with
 unusual observations highlighted.  This function is called by
-\code{plot.gvlmaDel}. 
+\code{plot.gvlmaDel}.
 }
 \usage{
 display.delstats(deletedStatvals, deletedpvals, nsd = 3,
@@ -15,13 +15,13 @@ display.delstats(deletedStatvals, deletedpvals, nsd = 3,
 \arguments{
   \item{deletedStatvals}{The vector of deletion statistics, with i-th
     entry  defined as the percent relative change in the global test
-    statistic when the i-th observation is removed from the analysis.} 
+    statistic when the i-th observation is removed from the analysis.}
   \item{deletedpvals}{The vector of p-values associated with the global
     test statistics, with i-th entry being the p-value for the global test
     statistic with observation i removed. }
   \item{nsd}{Parameter that governs which observations are deemed
     unusual.  When \code{TukeyStyle = TRUE}, \dQuote{control limits} are
-    drawn \code{nsd} 
+    drawn \code{nsd}
     times the interquartile range beyond the quartiles for both the
     \code{deletedStatvals} and \code{deletedpvals}.  When \code{TukeyStyle
   = FALSE}, \dQuote{control limits} are drawn at \code{nsd} standard deviations away
@@ -46,27 +46,27 @@ observation number).}
 \details{
   Generally \code{display.delstats} is not called directly, but rather
   by the function \code{plot.gvlmaDel}.
-  
+
 Plots the \code{deletedpvals} versus the \code{deletedStatvals} and adds
-\dQuote{control 
+\dQuote{control
 limits} determined by the parameters \code{nsd} and \code{TukeyStyle}.
-Points outside 
+Points outside
 the \dQuote{control limits} (in either the \code{deletedStatval} or
-\code{deletedpval}) are 
-labeled as unusual. 
+\code{deletedpval}) are
+labeled as unusual.
 }
 
 \value{
 A dataframe consisting of the unusual observations with variables
-\code{deletedStatval} and \code{deletedpval}. 
+\code{deletedStatval} and \code{deletedpval}.
 }
 
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
-  \email{pena@stat.sc.edu}. } 
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
+  \email{pena@stat.sc.edu}. }
 
 \seealso{\code{\link{gvlma}}}
 

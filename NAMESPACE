@@ -1,5 +1,14 @@
-# Default NAMESPACE created by R
-# Remove the previous line if you edit this file
-
-# Export all names
-exportPattern(".")
+export(computegvlma,
+       deletion.gvlma,
+       display.delstats,
+       display.gvlmatests,
+       gvlma,
+       gvlma.form,
+       gvlma.lm,
+       plot.gvlma,
+       plot.gvlmaDel,
+       print.gvlma,
+       print.gvlmaDel,
+       summary.gvlma,
+       summary.gvlmaDel,
+       update.gvlma)

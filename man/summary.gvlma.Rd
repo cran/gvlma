@@ -35,7 +35,7 @@ display.gvlmatests(gvlmaobj)
   directional tests associated with the gvlma object.  The decision is
   reported at the level of significance used when the gvlma object was
   created.  See the argument \code{alphalevel} to \code{gvlma}.
-  
+
 }
 \value{
   The value returned invisibly is a dataframe with row names indicating
@@ -48,10 +48,10 @@ display.gvlmatests(gvlmaobj)
 }
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
   \email{pena@stat.sc.edu}. }
 
 

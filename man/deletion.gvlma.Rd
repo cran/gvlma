@@ -24,7 +24,7 @@ corresponding statistic value based on the full data set.
   A dataframe is returned with variables
   \code{DeltaGlobalStat}, \code{GStatpvalue}, \code{DeltaStat1},
   \code{Stat1pvalue}, \code{DeltaStat2}, \code{Stat2pvalue},
-  \code{DeltaStat3},  
+  \code{DeltaStat3},
   \code{Stat3pvalue}, \code{DeltaStat4}, and \code{Stat4pvalue}.
   Each \dQuote{Delta} variable is the percent relative change in the
   statistic when the corresponding observation (row of the data
@@ -36,10 +36,10 @@ corresponding statistic value based on the full data set.
 
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
-  \email{pena@stat.sc.edu}. } 
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
+  \email{pena@stat.sc.edu}. }
 
 \seealso{\code{\link{gvlma}}}
 

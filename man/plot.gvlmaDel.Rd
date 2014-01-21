@@ -48,10 +48,10 @@ pointlabels, \dots)
 
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
+  \bold{101}(473):341-354.}
 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA
-  \email{pena@stat.sc.edu}. } 
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA
+  \email{pena@stat.sc.edu}. }
 
 \seealso{\code{\link{gvlma}}, \code{\link{deletion.gvlma}}}
 

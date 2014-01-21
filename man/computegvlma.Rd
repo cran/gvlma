@@ -37,7 +37,7 @@ directional tests are the following:
     \eqn{S^2_2}.}
   \item{DirectionalStat3}{A list of the \code{Value}, \code{pvalue} and
     \code{Decision} associated with the link function directional test,
-    \eqn{S^2_3}.} 
+    \eqn{S^2_3}.}
   \item{DirectionalStat4}{A list of the \code{Value}, \code{pvalue} and
     \code{Decision} associated with the heteroscedasticity test,
     \eqn{S^2_4}.}
@@ -45,9 +45,7 @@ directional tests are the following:
 }
 \references{Pena, EA and Slate, EH (2006).  \dQuote{Global validation of
   linear model assumptions,} \emph{J.\ Amer.\ Statist.\ Assoc.},
-  \bold{101}(473):341-354.} 
-\author{Slate, EH \email{SlateEH@musc.edu} and Pena, EA \email{pena@stat.sc.edu}. }
-\note{
-  }
+  \bold{101}(473):341-354.}
+\author{Slate, EH \email{slate@stat.fsu.edu} and Pena, EA \email{pena@stat.sc.edu}. }
 \seealso{\code{\link{gvlma}}, \code{\link{lm}}}
 \keyword{internal}% at least one, from doc/KEYWORDS
