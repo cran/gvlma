@@ -1,3 +1,10 @@
+importFrom("grDevices", "dev.interactive")
+importFrom("graphics", "abline", "hist", "par", "plot", "points",
+     "text")
+importFrom("stats", "coef", "fitted", "formula", "model.matrix",
+     "pchisq", "qqline", "qqnorm", "quantile", "resid",
+     "residuals", "var")
+
 export(computegvlma,
        deletion.gvlma,
        display.delstats,
@@ -12,3 +19,11 @@ export(computegvlma,
        summary.gvlma,
        summary.gvlmaDel,
        update.gvlma)
+
+S3method(plot, gvlma)
+S3method(print, gvlma)
+S3method(summary, gvlma)
+S3method(update, gvlma)
+S3method(plot, gvlmaDel)
+S3method(print, gvlmaDel)
+S3method(summary, gvlmaDel)
